@@ -5,38 +5,41 @@
         <content-type
             base-type="org.eclipse.core.runtime.xml"
             file-extensions="scfg"
-            id="com.tlcsdm.eclipse.renesas.scfg"
+            id="com.tlcsdm.eclipse.renesasconfigeditor.scfg"
             name="Renesas SCFG XML File"
             priority="normal" />
         <content-type
             base-type="org.eclipse.core.runtime.xml"
             file-extensions="mtpj"
-            id="com.tlcsdm.eclipse.renesas.mtpj"
+            id="com.tlcsdm.eclipse.renesasconfigeditor.mtpj"
             name="Renesas MTPJ XML File"
             priority="normal" />
         <content-type
             base-type="org.eclipse.core.runtime.xml"
             file-extensions="ewp"
-            id="com.tlcsdm.eclipse.renesas.ewp"
+            id="com.tlcsdm.eclipse.renesasconfigeditor.ewp"
             name="Renesas EWP XML File"
             priority="normal" />
     </extension>
 
     <extension point="org.eclipse.ui.editors">
         <editor
-            id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart"
+            id="com.tlcsdm.eclipse.renesasconfigeditor.editors.scfg"
+            class="com.tlcsdm.eclipse.renesasconfigeditor.RenesasXmlEditor"
             name="SCFG XML Editor"
             icon="icons/scfg.png"
             extensions="scfg"
             default="true" />
         <editor
-            id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart"
+            id="com.tlcsdm.eclipse.renesasconfigeditor.editors.mtpj"
+            class="com.tlcsdm.eclipse.renesasconfigeditor.RenesasXmlEditor"
             name="MTPJ XML Editor"
             icon="icons/mtpj.png"
             extensions="mtpj"
             default="true" />
         <editor
-            id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart"
+            id="com.tlcsdm.eclipse.renesasconfigeditor.editors.ewp"
+            class="com.tlcsdm.eclipse.renesasconfigeditor.RenesasXmlEditor"
             name="EWP XML Editor"
             icon="icons/ewp.png"
             extensions="ewp"
