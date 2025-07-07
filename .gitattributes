@@ -1,2 +1,3 @@
 plugins/com.tlcsdm.eclipse.renesasconfigeditor/about.html        linguist-vendored
 plugins/com.tlcsdm.eclipse.renesasconfigeditor/epl-v20.html        linguist-vendored
+plugins/com.tlcsdm.eclipse.renesasconfigeditor/help/**        linguist-vendored
