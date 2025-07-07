@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+    <extension point="org.eclipse.core.contenttype.contentTypes">
+        <content-type
+            base-type="org.eclipse.core.runtime.xml"
+            file-extensions="scfg"
+            id="com.tlcsdm.eclipse.renesas.scfg"
+            name="Renesas SCFG XML File"
+            priority="normal" />
+        <content-type
+            base-type="org.eclipse.core.runtime.xml"
+            file-extensions="mtpj"
+            id="com.tlcsdm.eclipse.renesas.mtpj"
+            name="Renesas MTPJ XML File"
+            priority="normal" />
+        <content-type
+            base-type="org.eclipse.core.runtime.xml"
+            file-extensions="ewp"
+            id="com.tlcsdm.eclipse.renesas.ewp"
+            name="Renesas EWP XML File"
+            priority="normal" />
+    </extension>
+
+    <extension point="org.eclipse.ui.editors">
+        <editor
+            id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart"
+            name="SCFG XML Editor"
+            icon="icons/scfg.png"
+            extensions="scfg"
+            default="true" />
+        <editor
+            id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart"
+            name="MTPJ XML Editor"
+            icon="icons/mtpj.png"
+            extensions="mtpj"
+            default="true" />
+        <editor
+            id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart"
+            name="EWP XML Editor"
+            icon="icons/ewp.png"
+            extensions="ewp"
+            default="true" />
+	</extension>
+	<extension point="org.eclipse.help.toc">
+		<toc file="help/help_toc.xml" primary="true"/>
+	</extension>
+
+</plugin>
