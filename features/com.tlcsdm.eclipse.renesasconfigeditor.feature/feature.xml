@@ -2,7 +2,7 @@
 <feature
       id="com.tlcsdm.eclipse.renesasconfigeditor.feature"
       label="%featureName"
-      version="1.0.0"
+      version="1.0.1.qualifier"
       provider-name="%providerName"
       plugin="com.tlcsdm.eclipse.renesasconfigeditor">
 
@@ -303,6 +303,8 @@ version(s), and exceptions or additional permissions here}.&quot;
       <import plugin="org.eclipse.core.runtime" version="3.5.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.ui" version="3.5.0" match="greaterOrEqual"/>
       <import plugin="org.eclipse.wst.xml.ui"/>
+      <import plugin="org.eclipse.ui.genericeditor"/>
+      <import plugin="org.eclipse.ui.editors"/>
       <import plugin="org.eclipse.help"/>
    </requires>
 

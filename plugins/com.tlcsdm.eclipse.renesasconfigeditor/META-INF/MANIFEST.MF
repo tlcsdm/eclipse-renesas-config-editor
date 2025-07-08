@@ -3,12 +3,14 @@ Bundle-ManifestVersion: 2
 Automatic-Module-Name: com.tlcsdm.eclipse.renesasconfigeditor
 Bundle-Name: %pluginName
 Bundle-SymbolicName: com.tlcsdm.eclipse.renesasconfigeditor;singleton:=true
-Bundle-Version: 1.0.0
+Bundle-Version: 1.0.1.qualifier
 Bundle-Activator: com.tlcsdm.eclipse.renesasconfigeditor.Activator
 Bundle-Vendor: %providerName
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
- org.eclipse.wst.xml.ui
+ org.eclipse.wst.xml.ui,
+ org.eclipse.ui.genericeditor,
+ org.eclipse.ui.editors
 Eclipse-LazyStart: true
 Bundle-ActivationPolicy: lazy
 Bundle-Localization: plugin
