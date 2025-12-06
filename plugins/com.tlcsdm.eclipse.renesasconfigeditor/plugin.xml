@@ -20,6 +20,12 @@
             id="com.tlcsdm.eclipse.renesasconfigeditor.ewp"
             name="Renesas EWP XML File"
             priority="normal" />
+        <content-type
+            base-type="org.eclipse.core.runtime.xml"
+            file-extensions="eww"
+            id="com.tlcsdm.eclipse.renesasconfigeditor.eww"
+            name="Renesas EWW XML File"
+            priority="normal" />
     </extension>
 
     <extension point="org.eclipse.ui.editors">
@@ -43,6 +49,13 @@
             name="EWP XML Editor"
             icon="icons/ewp.png"
             extensions="ewp"
+            default="true" />
+        <editor
+            id="com.tlcsdm.eclipse.renesasconfigeditor.editors.eww"
+            class="com.tlcsdm.eclipse.renesasconfigeditor.RenesasXmlEditor"
+            name="EWW XML Editor"
+            icon="icons/ewp.png"
+            extensions="eww"
             default="true" />
 	</extension>
 	

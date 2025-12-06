@@ -1,6 +1,6 @@
 # Eclipse Renesas Config Editor
 
-This plugin registers .mtpj, .scfg, and .ewp files—commonly used in Renesas projects—to be opened by Eclipse’s built-in XML editor. It helps developers quickly view and edit project configuration files in a structured and readable way.
+This plugin registers .mtpj, .scfg, .eww and .ewp files—commonly used in Renesas projects—to be opened by Eclipse’s built-in XML editor. It helps developers quickly view and edit project configuration files in a structured and readable way.
 
 ## Build
 
